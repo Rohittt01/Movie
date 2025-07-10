@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import React from "react";
 import MovieCard from "../components/MovieCard";
 import "../css/Home.css";
 import { getPopularMovies, searchMovies } from "../services/api.js";
